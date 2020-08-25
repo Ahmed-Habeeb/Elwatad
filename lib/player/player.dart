@@ -3,7 +3,7 @@ import 'package:elwatad/modules/sora_module.dart';
 import 'package:flutter/material.dart';
 
 class MyPlayer with ChangeNotifier{
- static  AudioPlayer player=AudioPlayer();
+   AudioPlayer player=AudioPlayer();
    Sora_module sora_module;
    bool isplay = false;
    String current="0:0";
